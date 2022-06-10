@@ -1,0 +1,42 @@
+.nav-style {
+    background-image: url("https://img.freepik.com/free-photo/muslim-business-woman-brown-hijab-working-about-financial-with-business-report-calculator-home-office_68339-173.jpg?w=2000");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+
+    background: transparent;
+    box-sizing: border-box;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    float: right;
+    padding: 10px 30px;
+    color: black;
+    /* font-weight: 500; */
+}
+
+nav ul li:hover {
+    color: crimson;
+    font-weight: 500;
+}
+
+.bannerText {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .bannerText {
+        top: 100px;
+        left: 50px;
+    }
+}

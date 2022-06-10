@@ -1,0 +1,4 @@
+ul li:active {
+    color: rgb(165, 24, 48);
+    text-decoration: underline;
+}
